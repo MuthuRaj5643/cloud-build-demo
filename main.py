@@ -14,8 +14,8 @@ def hi():
     return 'Hi'
 
 @app.route('/hello')
-def hello():
-    return 'Helo'
+def greet():
+    return 'Good morning'
 
 
 if __name__ == '__main__':
