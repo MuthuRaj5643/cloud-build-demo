@@ -13,6 +13,10 @@ def hello():
 def hi():
     return 'Hi'
 
+@app.route('/hello')
+def hello():
+    return 'Helo'
+
 
 if __name__ == '__main__':
 
