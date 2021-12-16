@@ -9,6 +9,10 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
+@app.route('/hi')
+def hi():
+    return 'Hi'
+
 
 if __name__ == '__main__':
 
