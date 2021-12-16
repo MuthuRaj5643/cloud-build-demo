@@ -17,6 +17,9 @@ def hi():
 def greet():
     return 'Good morning'
 
+@app.route('/muthu')
+def muthu():
+    return "Hello from Muthu"
 
 if __name__ == '__main__':
 
